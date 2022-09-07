@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { getHeroesByPublisher, getHeroesByQuery } from "../helpers"
 import { HeroCard } from "../pages"
 import { useMemo } from 'react'
@@ -43,6 +44,17 @@ export const HeroList = ({ publisher, query = '' }) => {
                         {...heroData}
                     />
                 ))
+=======
+import { getHeroesByPublisher } from "../helpers"
+import { Hero } from "../pages";
+
+export const HeroList = () => {
+    const heroes = getHeroesByPublisher('Marvel Comics');
+    return (
+        <div className="w-full flex gap-1 flex-wrap">
+            {
+                heroes.map(heroData => <Hero key={heroData.id} hero={heroData} />)
+>>>>>>> Routes and pages with basic styles
             }
         </div>
     )

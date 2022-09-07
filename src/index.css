@@ -12,6 +12,7 @@
     .form-control-wrapper {
         @apply w-full flex flex-col;
     }
+<<<<<<< HEAD
     .header-title {
         @apply text-[38px] font-display text-salmon mb-0;
     }
@@ -27,4 +28,6 @@
     .active {
         @apply text-white
     }
+=======
+>>>>>>> Routes and pages with basic styles
 }

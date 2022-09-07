@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+<<<<<<< HEAD
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}'
   ],
@@ -21,3 +22,13 @@ module.exports = {
   },
   plugins: []
 }
+=======
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+>>>>>>> Routes and pages with basic styles

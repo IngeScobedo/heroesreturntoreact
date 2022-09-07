@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useLocation, useNavigate } from 'react-router-dom';
 import queryString from 'query-string'
 
@@ -50,5 +51,12 @@ export const Search = () => {
         </div>
       </div>
     </div>
+=======
+import React from 'react'
+
+export const Search = () => {
+  return (
+    <div>Search</div>
+>>>>>>> Routes and pages with basic styles
   )
 }
