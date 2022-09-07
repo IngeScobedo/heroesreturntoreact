@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .form-label {
+        @apply text-sm text-white pl-2;
+    }
+    .form-input {
+        @apply w-full h-[28px] outline-transparent rounded-2xl bg-gray-300 border border-gray-500 text-gray-500 pl-2 text-xs;
+    }
+    .form-control-wrapper {
+        @apply w-full flex flex-col;
+    }
+}
