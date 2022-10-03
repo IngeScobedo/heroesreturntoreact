@@ -12,4 +12,16 @@
     .form-control-wrapper {
         @apply w-full flex flex-col;
     }
+    .header-title {
+        @apply text-[38px] font-display text-salmon mb-0;
+    }
+    .hero-body-text {
+        @apply text-2xl font-body text-slate-500 tracking-wider;
+    }
+    .global-container {
+        @apply w-full h-full max-h-[calc(100vh-56px)] flex justify-center items-center;
+    }
+    .wrapper-container {
+        @apply w-full h-full max-w-[1100px] px-10 py-16;
+    }
 }

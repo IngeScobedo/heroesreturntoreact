@@ -4,7 +4,7 @@ import { HeroList } from '../components'
 export const Marvel = () => {
   return (
     <>
-      <HeroList />
+      <HeroList publisher={'Marvel Comics'} />
     </>
   )
 }
