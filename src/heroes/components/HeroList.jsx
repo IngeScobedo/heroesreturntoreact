@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Heroes app completed
 import { getHeroesByPublisher, getHeroesByQuery } from "../helpers"
 import { HeroCard } from "../pages"
 import { useMemo } from 'react'
@@ -9,6 +12,11 @@ export const HeroList = ({ publisher, query = '' }) => {
         ? heroes = useMemo(() => getHeroesByPublisher(publisher))
         : heroes = useMemo(() => getHeroesByQuery(query))
 
+<<<<<<< HEAD
+=======
+    console.log(heroes)
+
+>>>>>>> Heroes app completed
     if (!heroes.length) {
         if (publisher) {
             return (
@@ -33,6 +41,7 @@ export const HeroList = ({ publisher, query = '' }) => {
             )
         }
     }
+<<<<<<< HEAD
 
     return (
         <div className="w-full grid gap-4 grid-cols-3 px-8 py-6 animate__animated animate__fadeInDownBig">
@@ -47,14 +56,24 @@ export const HeroList = ({ publisher, query = '' }) => {
 =======
 import { getHeroesByPublisher } from "../helpers"
 import { Hero } from "../pages";
+=======
+>>>>>>> Heroes app completed
 
-export const HeroList = () => {
-    const heroes = getHeroesByPublisher('Marvel Comics');
     return (
-        <div className="w-full flex gap-1 flex-wrap">
+        <div className="w-full grid gap-4 grid-cols-3 px-8 py-6 animate__animated animate__fadeInDownBig">
             {
+<<<<<<< HEAD
                 heroes.map(heroData => <Hero key={heroData.id} hero={heroData} />)
 >>>>>>> Routes and pages with basic styles
+=======
+
+                heroes.map(heroData => (
+                    <HeroCard
+                        key={heroData.id}
+                        {...heroData}
+                    />
+                ))
+>>>>>>> Heroes app completed
             }
         </div>
     )

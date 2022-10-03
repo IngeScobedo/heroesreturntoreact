@@ -13,6 +13,9 @@
         @apply w-full flex flex-col;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Heroes app completed
     .header-title {
         @apply text-[38px] font-display text-salmon mb-0;
     }
@@ -25,9 +28,12 @@
     .wrapper-container {
         @apply w-full h-full max-w-[1100px] px-10 py-16;
     }
+<<<<<<< HEAD
     .active {
         @apply text-white
     }
 =======
 >>>>>>> Routes and pages with basic styles
+=======
+>>>>>>> Heroes app completed
 }
