@@ -13,10 +13,13 @@ export const HeroList = ({ publisher, query = '' }) => {
         : heroes = useMemo(() => getHeroesByQuery(query))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     console.log(heroes)
 
 >>>>>>> Heroes app completed
+=======
+>>>>>>> save last path and handle public and private routes
     if (!heroes.length) {
         if (publisher) {
             return (

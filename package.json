@@ -27,6 +27,18 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
+<<<<<<< HEAD
+=======
+    "babel-jest": "^29.1.2",
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "latest",
+    "jest": "^29.1.2",
+    "jest-environment-jsdom": "^29.1.2",
+>>>>>>> save last path and handle public and private routes
     "vite": "^3.1.0"
   },
   "eslintConfig": {

@@ -29,6 +29,7 @@
         @apply w-full h-full max-w-[1100px] px-10 py-16;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     .active {
         @apply text-white
     }
@@ -36,4 +37,9 @@
 >>>>>>> Routes and pages with basic styles
 =======
 >>>>>>> Heroes app completed
+=======
+    .active {
+        @apply text-white
+    }
+>>>>>>> save last path and handle public and private routes
 }
