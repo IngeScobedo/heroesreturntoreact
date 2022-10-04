@@ -8,8 +8,6 @@ export const HeroList = ({ publisher, query = '' }) => {
         ? heroes = useMemo(() => getHeroesByPublisher(publisher))
         : heroes = useMemo(() => getHeroesByQuery(query))
 
-    console.log(heroes)
-
     if (!heroes.length) {
         if (publisher) {
             return (

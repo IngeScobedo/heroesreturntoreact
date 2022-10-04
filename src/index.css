@@ -24,4 +24,7 @@
     .wrapper-container {
         @apply w-full h-full max-w-[1100px] px-10 py-16;
     }
+    .active {
+        @apply text-white
+    }
 }
